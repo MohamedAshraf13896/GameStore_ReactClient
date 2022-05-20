@@ -1,0 +1,23 @@
+.item {
+  margin: 22px;
+  border-radius: 10px !important;
+  background-image: linear-gradient(
+    to Right,
+    rgb(48, 46, 46),
+    rgb(110, 74, 53)
+  );
+}
+
+.salary {
+  color: rgb(136, 134, 134);
+  width: 12%;
+}
+
+.btnBuy {
+  border-radius: 10px;
+  padding: 5px !important;
+  justify-content: space-between;
+  width: 50%;
+  border-radius: 15px !important;
+  margin: 10px 10px 10px 50px;
+}

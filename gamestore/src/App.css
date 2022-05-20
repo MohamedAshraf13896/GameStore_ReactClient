@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.Parentbg {
+  background-image: linear-gradient(to left, rgb(0 0 0 / 80%), rgb(151 98 68));
+  height: 100vh;
+}
 
 .App-header {
   background-color: #282c34;
