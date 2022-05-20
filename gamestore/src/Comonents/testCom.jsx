@@ -1,5 +1,8 @@
 export default function comm(params) {
     return(
-        <h1>hello game </h1>
+        <div>
+
+            <h1>hello game </h1> <h1>hello game </h1>
+        </div>
     )
 }
