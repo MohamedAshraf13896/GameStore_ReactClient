@@ -202,7 +202,7 @@ export default function Categories() {
           }}
           type="number"
         />
-        <button className="w-50 d-block container mt-4 btn btn-warning btnsub">
+        <button className="w-50 d-block container mt-4 btn btn-warning btnsub m-auto">
           Apply Fillters
         </button>
       </div>

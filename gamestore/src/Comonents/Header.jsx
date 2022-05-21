@@ -34,7 +34,7 @@ export function Header() {
               >
                 <Nav.Link
                   style={{
-                    fontSize: "17px",
+                    fontSize: "19px",
                     marginRight: "30px",
                     color: "#c7c1c1",
                   }}
@@ -45,7 +45,7 @@ export function Header() {
 
                 <Nav.Link
                   style={{
-                    fontSize: "17px",
+                    fontSize: "19px",
                     marginRight: "30px",
                     color: "#c7c1c1",
                   }}
@@ -56,7 +56,7 @@ export function Header() {
 
                 <Nav.Link
                   style={{
-                    fontSize: "17px",
+                    fontSize: "19px",
                     marginRight: "30px",
                     color: "#c7c1c1",
                   }}

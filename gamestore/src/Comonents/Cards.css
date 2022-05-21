@@ -1,23 +1,73 @@
-.item {
-  margin: 22px;
-  border-radius: 10px !important;
-  background-image: linear-gradient(
-    to Right,
-    rgb(48, 46, 46),
-    rgb(110, 74, 53)
-  );
+section .cards .image {
+  margin-top: 8px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 2px;
+  background: #ffc107;
+}
+
+.container {
+  margin-left: 20px !important;
+}
+.swiper-button-next {
+  color: #ffc107 !important;
+}
+.swiper-button-prev {
+  color: #ffc107 !important;
+}
+section .cards .image img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.cards {
+  border-radius: 20px;
+}
+
+.cardContent {
+  margin-top: 15px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(151 98 68));
+  width: 300px;
+  display: flex;
+  height: 354px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name-profession .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.name-profession .profession {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.psalary {
+  display: flex;
+  justify-content: space-between;
 }
 
 .salary {
-  color: rgb(136, 134, 134);
-  width: 12%;
+  color: #ffc107;
+  font-size: 20px;
 }
-
-.btnBuy {
-  border-radius: 10px;
-  padding: 5px !important;
-  justify-content: space-between;
-  width: 50%;
-  border-radius: 15px !important;
-  margin: 10px 10px 10px 50px;
+.btnsubmit {
+  color: black;
+  border-radius: 18px !important;
+  width: 85px;
+  font-weight: bold !important;
 }
