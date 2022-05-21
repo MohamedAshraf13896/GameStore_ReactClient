@@ -186,7 +186,7 @@ export default function Categories() {
         <input
           style={{
             width: "30%",
-            margin: "3px",
+            margin: "3px 3px 12px 3px",
             padding: "5px",
             borderRadius: "7px",
           }}
@@ -202,7 +202,7 @@ export default function Categories() {
           }}
           type="number"
         />
-        <button className="w-50 d-block container mt-4 btn btn-warning btnsub m-auto">
+        <button className=" d-block mt-4 btn btn-warning btnsub m-auto">
           Apply Fillters
         </button>
       </div>

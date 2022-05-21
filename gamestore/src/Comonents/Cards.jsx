@@ -2,6 +2,7 @@ import React from "react";
 import "./Cards.css";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
+import StarHalfIcon from "@mui/icons-material/StarHalf";
 import spider from "../Imgs/Spider.jpg";
 import Escape from "../Imgs/Escape.jpg";
 import NeedSpeed from "../Imgs/Need for Speed.jpg";
@@ -86,9 +87,9 @@ export function Cards() {
                       <StarIcon
                         sx={{ color: "#ffc107", fontSize: "25px" }}
                       ></StarIcon>
-                      <StarBorderIcon
+                      <StarIcon
                         sx={{ color: "#ffc107", fontSize: "25px" }}
-                      ></StarBorderIcon>
+                      ></StarIcon>
                       <StarBorderIcon
                         sx={{ fontSize: "25px" }}
                       ></StarBorderIcon>
@@ -164,9 +165,9 @@ export function Cards() {
                       <StarIcon
                         sx={{ color: "#ffc107", fontSize: "25px" }}
                       ></StarIcon>
-                      <StarBorderIcon
+                      <StarHalfIcon
                         sx={{ color: "#ffc107", fontSize: "25px" }}
-                      ></StarBorderIcon>
+                      ></StarHalfIcon>
                       <StarBorderIcon
                         sx={{ fontSize: "25px" }}
                       ></StarBorderIcon>
@@ -239,10 +240,12 @@ export function Cards() {
                       <StarIcon
                         sx={{ color: "#ffc107", fontSize: "25px" }}
                       ></StarIcon>
-                      <StarIcon sx={{ fontSize: "25px" }}></StarIcon>
-                      <StarBorderIcon
-                        sx={{ fontSize: "25px" }}
-                      ></StarBorderIcon>
+                      <StarIcon
+                        sx={{ color: "#ffc107", fontSize: "25px" }}
+                      ></StarIcon>
+                      <StarIcon
+                        sx={{ color: "#ffc107", fontSize: "25px" }}
+                      ></StarIcon>
                       <StarBorderIcon
                         sx={{ fontSize: "25px" }}
                       ></StarBorderIcon>
