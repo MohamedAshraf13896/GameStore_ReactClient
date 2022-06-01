@@ -1,4 +1,10 @@
 img {
-  width: 96% !important;
+  width: 98% !important;
   border-radius: 10px !important;
+}
+.carousel-control-prev-icon {
+  margin: 0 107px 0 4px !important;
+}
+.margins {
+  margin: 35px 0 45px !important;
 }

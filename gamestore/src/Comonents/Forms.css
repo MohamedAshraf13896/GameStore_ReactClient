@@ -1,0 +1,60 @@
+.imgdiv img {
+  height: 984px !important;
+  width: 980px !important;
+}
+.parent {
+  justify-content: center !important;
+}
+
+.checkerr {
+  padding-top: 50px !important;
+  font-size: xx-large !important;
+  color: rgb(255, 37, 37) !important;
+}
+.conferr {
+  padding-top: 50px !important;
+  font-size: xx-large !important;
+  color: #099c09 !important;
+}
+.errors {
+  color: #ffcd39 !important;
+}
+.covers {
+  margin-top: 35px;
+  border-radius: 15px !important;
+  background-image: linear-gradient(
+    to Right,
+    rgb(23, 12, 12),
+    rgb(110, 74, 53)
+  );
+  height: 984px;
+}
+
+.table-fixed tbody {
+  height: 300px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+.forma {
+  height: 750px;
+  border-radius: 25px !important;
+}
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+  float: left;
+  position: relative;
+}
+
+.imagee {
+  border-radius: 10px;
+  box-shadow: -3px 9px 20px 0px #000000a8;
+}

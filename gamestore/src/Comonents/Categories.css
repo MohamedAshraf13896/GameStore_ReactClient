@@ -1,7 +1,7 @@
 .Parent {
   margin-top: 16px;
-  width: 95% !important;
-  height: 95.5%;
+  width: 93% !important;
+  height: 94%;
   border-radius: 15px;
   background-image: linear-gradient(
     to Right,
@@ -13,10 +13,11 @@
 
 .CatItem {
   padding: 0 0 10px 54px;
+  font-size: 20px;
 }
 
 .InpItem {
-  margin-top: 5px !important;
+  margin-top: 10px !important;
 }
 .labItem {
   margin-left: 10px;

@@ -1,81 +1,130 @@
-import React from "react";
+import React, { useState } from "react";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { NavLink } from "react-router-dom";
 import LocalGroceryStoreOutlinedIcon from "@mui/icons-material/LocalGroceryStoreOutlined";
 import "../App.css";
-
-import {
-  Navbar,
-  Container,
-  Nav,
-  Form,
-  FormControl,
-  NavDropdown,
-  Button,
-} from "react-bootstrap";
-
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import "../index.css";
-
 export function Header() {
   return (
     <>
-      <Navbar expand="lg">
-        <Container fluid>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <div
-                style={{ margin: "0 0 0 30px", padding: "10px" }}
-                className="d-flex"
+      <Navbar collapseOnSelect expand="lg" bg="bg-transparent" variant="dark">
+        <Container className="mt-3">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link
+                className="mt-2"
+                style={{
+                  fontSize: "23px",
+                  margin: "40px 30px 30px 30px",
+                }}
               >
-                <Nav.Link
+                <NavLink
+                  className="mt-2 "
                   style={{
-                    fontSize: "19px",
-                    marginRight: "30px",
-                    color: "#c7c1c1",
+                    color: "rgb(202 210 215)",
+                    textDecoration: "none",
                   }}
-                  href="#action1"
+                  to={`/`}
                 >
                   Home
-                </Nav.Link>
-
-                <Nav.Link
+                </NavLink>
+              </Nav.Link>
+              <Nav.Link
+                className="mt-2"
+                style={{
+                  fontSize: "23px",
+                  marginRight: "30px",
+                }}
+              >
+                {" "}
+                <NavLink
+                  className="mt-2"
                   style={{
-                    fontSize: "19px",
-                    marginRight: "30px",
-                    color: "#c7c1c1",
+                    color: "rgb(202 210 215)",
+                    textDecoration: "none",
                   }}
-                  href="#action2"
+                  to={`/Register`}
                 >
                   Register
-                </Nav.Link>
-
-                <Nav.Link
+                </NavLink>
+              </Nav.Link>
+              <Nav.Link
+                className="mt-2"
+                style={{
+                  fontSize: "23px",
+                  marginRight: "30px",
+                }}
+              >
+                {" "}
+                <NavLink
+                  className="mt-2"
                   style={{
-                    fontSize: "19px",
-                    marginRight: "30px",
-                    color: "#c7c1c1",
+                    color: "rgb(202 210 215)",
+                    textDecoration: "none",
                   }}
-                  href="#action2"
+                  to={`/Login`}
                 >
                   Login
-                </Nav.Link>
-              </div>
+                </NavLink>
+              </Nav.Link>
+              <NavDropdown
+                className="mt-2"
+                style={{
+                  fontSize: "23px",
+                  marginRight: "30px",
+                }}
+                title="Admin"
+                id="collasible-nav-dropdown"
+              >
+                <NavDropdown.Item>
+                  <NavLink
+                    className="mt-2 fa-caret-down"
+                    style={{
+                      color: "black",
+                      textDecoration: "none",
+                    }}
+                    to={`/Forms`}
+                  >
+                    Add Game
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink
+                    className="mt-2"
+                    style={{
+                      color: "black",
+                      textDecoration: "none",
+                    }}
+                    to={`/AddCateogory`}
+                  >
+                    Add Cateogory
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink
+                    className="mt-2"
+                    style={{
+                      color: "black",
+                      textDecoration: "none",
+                    }}
+                    to={`/AddPlatform`}
+                  >
+                    Add Platform
+                  </NavLink>
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav>
-
-            <div className="d-flex">
-              <span className="iconify" data-icon="akar-icons:heart"></span>
-              <LocalGroceryStoreOutlinedIcon sx={{ color: "#c7c1c1" }} />
-              <FavoriteBorderIcon
-                sx={{ margin: "0 50px 0 30px", color: "#c7c1c1" }}
-              />
-            </div>
           </Navbar.Collapse>
         </Container>
+        <div className="d-flex mt-3">
+          <span className="iconify" data-icon="akar-icons:heart"></span>
+          <LocalGroceryStoreOutlinedIcon sx={{ color: "#c7c1c1" }} />
+          <FavoriteBorderIcon
+            sx={{ margin: "0 50px 0 30px", color: "#c7c1c1" }}
+          />
+        </div>
       </Navbar>
     </>
   );

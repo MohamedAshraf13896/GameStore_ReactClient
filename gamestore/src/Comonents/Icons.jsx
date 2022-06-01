@@ -8,21 +8,31 @@ export default function Icons() {
   return (
     <>
       <div className="container">
-        <FacebookSharpIcon
-          sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
-        ></FacebookSharpIcon>
-        <InstagramIcon
-          sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
-        ></InstagramIcon>
-        <LinkedInIcon
-          sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
-        ></LinkedInIcon>
-        <WhatsAppIcon
-          sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
-        ></WhatsAppIcon>
-        <TwitterIcon
-          sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
-        ></TwitterIcon>
+        <a href="https://www.facebook.com/">
+          <FacebookSharpIcon
+            sx={{ margin: "17px 20px 0 0px", color: "#c7c1c1" }}
+          ></FacebookSharpIcon>
+        </a>
+        <a href="https://www.instagram.com/">
+          <InstagramIcon
+            sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
+          ></InstagramIcon>
+        </a>
+        <a href="https://www.linkedin.com/">
+          <LinkedInIcon
+            sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
+          ></LinkedInIcon>
+        </a>
+        <a href="https://web.whatsapp.com/">
+          <WhatsAppIcon
+            sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
+          ></WhatsAppIcon>
+        </a>
+        <a href="https://twitter.com/">
+          <TwitterIcon
+            sx={{ margin: "17px 20px 0 30px", color: "#c7c1c1" }}
+          ></TwitterIcon>
+        </a>
       </div>
     </>
   );
